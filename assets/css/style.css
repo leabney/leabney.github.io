@@ -1,0 +1,86 @@
+.jumbotron {
+    height: 220px;
+    margin-bottom: 0px;
+    background-image: url(../images/header.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    padding-top: 80px;
+}
+
+
+
+#welcome {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 20px;
+    border: 1px solid #311F39;
+    margin-top: 40px;
+
+}
+
+.content{
+    background-image: url(../images/background.png);
+    background-position: 0% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 60px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.headercolor {
+    background-color:    #efeff6;
+}
+
+
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #311F39;
+}
+
+.btn-primary {
+    background-color: #adadd1;
+    border: #311F39;
+}
+
+.btn-primary:hover {
+    background-color: #621E35;
+}
+
+.card-deck {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-header {
+    background-color: #311F39;
+    color: white;
+}
+
+img{
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.footer {
+    height: 45px;
+    width: 100%;
+    padding-top:10px;
+    background-color: lightslategrey;
+    color: white;
+    text-align: center;
+ }
