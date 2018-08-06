@@ -11,8 +11,6 @@
     padding-top: 80px;
 }
 
-
-
 #welcome {
     width: 80%;
     margin: 0 auto;
@@ -31,12 +29,14 @@
     background-repeat: no-repeat;
     padding-bottom: 50px;
 }
+
 h1{
     font-size: 60px;
 }
 
 .navbar {
-    margin-bottom: 30px;
+    background-color: #1C223C;
+    color: white;
 }
 
 .headercolor {
@@ -44,21 +44,20 @@ h1{
 }
 
 
-
 h3 {
     font-family: 'Anton', sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
-    color: #311F39;
+    color: #1C223C;
 }
 
 .btn-primary {
     background-color: #adadd1;
-    border: #311F39;
+    border: #32589F;
 }
 
 .btn-primary:hover {
-    background-color: #2972CE;
+    background-color: #32589F;
 }
 
 .card-deck {
@@ -69,10 +68,9 @@ h3 {
 }
 
 .card-header {
-    background-color: #311F39;
+    background-color: #1C223C;
     color: white;
 }
-
 
 .connect {
     width: 40%;
@@ -87,14 +85,22 @@ h3 {
     text-align: center;
  }
 
+ #footer {
+     margin-bottom: 0px;
+ }
+
  @media screen and (max-width: 768px) {
    .connect {
-       width: 100%;
+      width: 100%;
       flex-direction: column !important;
     }
     .img-responsive{
       width: 80px;
       height: 80px;
+    }
+
+    .card-deck .card {
+        margin-bottom: 35px;
     }
   }
 
@@ -112,8 +118,8 @@ h3 {
       }
 
       .connect{
-          max-resolution: top -20pEli 3242017px !important;;
+          margin-top: -20px !important;;
       }
  
-     
+    
    }
